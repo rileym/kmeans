@@ -29,7 +29,7 @@ function [J, M] = VecQuant(A, k, maxIter, tol)
                         %of the first iteration.
                         
     mD   = (A(:,:,1)-M(1,1)).^2 + (A(:,:,2)-M(1,2)).^2 + (A(:,:,3)-M(1,3)).^2;
-                        %mD is a 128x128 (512x512) matrix where mD(k,l) is the
+                        %mD is a 128x128 (or 512x512 for the larger picture) matrix where mD(k,l) is the
                         %DISTANCE TO THE NEAREST CENTROID [mInd(k,l)] 
                         %so far seen in the loop.
                         
