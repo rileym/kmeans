@@ -1,4 +1,4 @@
-# kmeans
+## Image Compression with K-Means Clustering
 
 This is a well known exercise from the Stanford ML course (in the CS dept). We had to write our own little k-means clustering algorithm to compress an image. 
 
